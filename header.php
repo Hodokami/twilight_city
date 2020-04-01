@@ -5,8 +5,8 @@
  * Displays all of the head element and everything up until the "content" div.
  *
  * @package WordPress
- * @subpackage Neira lite
- * @since Neira lite 1.0
+ * @subpackage twilight_city
+ * @since Twilight City 0.1
  */
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>

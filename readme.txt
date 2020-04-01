@@ -78,6 +78,8 @@ Third-party resources:
 
 	7. Plugin Update Checker - Copyright (c) 2017 Jānis Elsts - https://github.com/YahnisElsts/plugin-update-checker
 	Licensed under MIT (https://github.com/YahnisElsts/plugin-update-checker/blob/master/license.txt)
+
+	8. Adobe Fonts
 	
 Resources packed within the theme:
 * Other custom js files are our own creation and is licensed under the same license as this theme. 

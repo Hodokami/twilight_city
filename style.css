@@ -1,18 +1,18 @@
 /*
 ==  THEME DETAILS  ===================================================================
     
-    Theme Name: Neira lite
-    Theme URI: https://volthemes.com/theme/neira-lite/
+    Theme Name: Twilight City
+    Theme URL: https://github.com/Hodokami/twilight_city
     Description: Neira Lite is a clean and minimalist theme that allows your reader to focus on your content. It features modern, easy-to-read typography and minimalistic design. Built with Bootstrap framework which is perfect look on any device. Neira Lite offers additional two custom widget i.e. About and Latest Posts and including changing the color scheme. The theme options are powered by Customizer. You can check out the demo at https://volthemes.com/demo/?theme=neira-lite
 	Version: 1.8.3
 
-    Author: VolThemes
-    Author URI: https://volthemes.com/
+    Author: Hodokami
+    Author URI: https://tellaresdo.com/
 
 	License: GNU General Public License v2 or later
 	License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-	Text Domain: neira-lite
+	Text Domain: twilight_city
 	Domain Path: /languages/
 	
 	Tags: blog, food-and-drink, photography, two-columns, right-sidebar, translation-ready, custom-background, custom-colors, custom-header, custom-logo, custom-menu, editor-style, featured-images, flexible-header, full-width-template, post-formats, sticky-post, theme-options, threaded-comments
@@ -23,13 +23,14 @@
 body {
     background-color: #f9f9f9;
     color: #555;
-    font-family: 'a-otf-ud-shin-go-pr6n', sans-serif;
+    font-family: ryo-gothip-plusn , sans-serif;
+    font-weight: 300;
     font-size: 14px;
     line-height: 25px;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: "a-otf-ud-shin-go-pr6n", sans-serif;
-    font-weight: normal;
+    font-family: ryo-gothip-plusn , sans-serif;
+    font-weight: 300;
     line-height: normal;
     margin: 15px 0;
     -ms-word-wrap: break-word;
@@ -189,7 +190,7 @@ td {
     border-width: 0 1px 1px 0px;
 }
 tbody tr th {
-    font-weight: 400;
+    font-weight: 300;
 }
 tbody tr:first-child th {
     border-top-width: 1px;
@@ -212,9 +213,10 @@ table tfoot + tbody tr:first-child td {
 blockquote, #content article.format-quote .entry-summary {
 	background: #eee;
 	color: #383838;
-	font-family: Georgia,serif;
+	font-family: ryo-text-plusn ,serif;
+	font-weight: 300;
 	font-size: 18px;
-	font-style: italic;
+	font-style: normal;
 	line-height: 1.45;
 	padding: 1em 42px;
 	position: relative;
@@ -485,11 +487,13 @@ header.site-header {
     text-align: center;
 }
 .site-title {
-	font-family: BenchNine, sans-serif;
+	font-family: ta-rb, sans-serif;
+	font-weight: 400;
 	font-size: 100px;
+	margin: 0;
 }
 .site-header h2 {
-	font-weight: normal;
+	font-weight: 300;
 	line-height: 1.846153846;
 }
 .site-branding .header-image {
@@ -511,10 +515,6 @@ header.site-header {
 .custom-logo-link {
 	display: inline-block;
 	padding: 0 0 15px;
-}
-.site-title {
-	font-weight: 300;
-	margin: 0;
 }
 .site-title a {
 	color: #333;
@@ -553,9 +553,9 @@ header.site-header {
 #nav-wrapper .vtmenu a {
     color: #ccc;
     display: block;
-    font-family: "BenchNine", sans-serif;
+    font-family: ryo-gothic-plusn, sans-serif;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 300;
     letter-spacing: 2px;
     line-height: 50px;
 	padding: 0;
@@ -650,7 +650,7 @@ header.site-header {
 	color: #444;
 	display: inline-block;
 	font-size: 10px;
-	font-weight: normal;
+	font-weight: 300;
 	letter-spacing: 2px;
 	line-height: 30px;
 	position: relative;
@@ -672,7 +672,7 @@ header.site-header {
 	bottom: -44px;
 }
 .readmore.share-author a {
-	font-family:"Arial", sans-serif;
+	font-family: ryo-gothic-plusn, sans-serif;
 	font-size:14px;
 	color:#222;
 	text-transform:uppercase;
@@ -810,8 +810,8 @@ header.site-header {
 }
 .post-title > a {
     color: #333;
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 22px;
+    font-weight: 300;
     letter-spacing: 0;
     text-decoration: none;
 }
@@ -889,7 +889,7 @@ header.site-header {
     color: #444;
     display: inline-block;
     font-size: 10px;
-    font-weight: normal;
+    font-weight: 300;
     letter-spacing: 2px;
     line-height: 30px;
     position: relative;
@@ -979,7 +979,7 @@ header.site-header {
 }
 .entry-related .hentry .entry-title {
     font-size: 14px;
-    font-weight: normal;
+    font-weight: 300;
     line-height: 1.45;
 	margin: 10px 0;
     display: table;
@@ -1012,7 +1012,7 @@ header.site-header {
 }
 .widget-title {
     color: #555;
-	font-family: BenchNine, sans-serif;
+	font-family: ta-rb, sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
     margin: 3px 0 25px;
@@ -1232,7 +1232,7 @@ header.site-header {
 	background: #f4f3f4;
 	color: #333;
 	display: inline-block;
-	font-weight: 400;
+	font-weight: 300;
 	letter-spacing: 0.5px;
 	margin: 0;
 	padding: 5px 13px;
@@ -1298,7 +1298,7 @@ header.site-header {
     color: #21759b;
     display: block;
     font-size: 14px;
-    font-weight: bold;
+    font-weight: 700;
     height: auto;
     left: 5px;
     line-height: normal;
@@ -1390,7 +1390,7 @@ header.site-header {
     -webkit-border-radius: 30px;
     color: #111;
     font-size: 10px;
-    font-weight: normal;
+    font-weight: 300;
     letter-spacing: 0.75px;
     margin-left: 10px;
     padding: 5px 10px;
@@ -1451,7 +1451,7 @@ textarea#message {
 }
 .error404 .not-found span {
 	color: #666;
-	font-weight: bold;
+	font-weight: 700;
 }
 .page-header {
     background: #fff none repeat scroll 0 0;
@@ -1536,7 +1536,8 @@ textarea#message {
     border: 1px solid #e5e5e5;
     color: #666;
     display: inline-block;
-    font-family: Montserrat;
+    font-family: ryo-gothic-plusn;
+    font-weight: 300;
     font-size: 10px !important;
     margin: 0 2px 5px;
     padding: 0 10px;
@@ -1560,7 +1561,8 @@ textarea#message {
     border-bottom: 1px dashed #eee;
     color: #333;
     display: block;
-    font-family: Montserrat;
+    font-family: ryo-gothic-plusn;
+    font-weight: 300;
     font-size: 11px;
     line-height: 40px;
     text-transform: uppercase;
@@ -1579,7 +1581,7 @@ textarea#message {
 /*--- Mailchimp widget ---*/
 .mc4wp-form label {
     color: #555;
-    font-weight: 400;
+    font-weight: 300;
     margin-bottom: 17px;
     text-align: center;
 }
@@ -1588,7 +1590,7 @@ textarea#message {
     border: medium none;
     color: #fff;
     font-size: 11px;
-    font-weight: bold;
+    font-weight: 700;
     letter-spacing: 2px;
     line-height: 37px;
     padding: 0;
@@ -1649,7 +1651,7 @@ textarea#message {
 }
 .site-footer .widget ul > li a {
     color: #555;
-	font-weight: normal;
+	font-weight: 300;
 }
 .site-footer .widget ul > li a:hover {
     text-decoration: underline;
@@ -1671,9 +1673,9 @@ textarea#message {
     margin-bottom: 20px;
 }
 .site-footer .widget_posts_thumbnail ul li a {
-    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: ryo-gothic-plusn, sans-serif;
     font-size: 13px;
-    font-weight: normal;
+    font-weight: 300;
 }
 .site-footer .widget_posts_thumbnail .entry-meta {
 	font-size: 10px;
@@ -1710,7 +1712,7 @@ textarea#message {
 .copyright {
 	color: #888;
 	font-size: 13px;
-	font-weight: 400;
+	font-weight: 300;
 	padding: 20px 0;
 	text-align: center;
 	text-transform: capitalize;
@@ -1736,7 +1738,8 @@ textarea#message {
 #backtotop a {
     display: block;
     text-align: center;
-    font: 11px/100% Arial, Helvetica, sans-serif;
+    font: 11px/100% ryo-gothic-plusn, sans-serif;
+    font-weight: 300;
     text-transform: uppercase;
     text-decoration: none;
     color: #bbb;

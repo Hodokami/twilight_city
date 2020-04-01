@@ -2,7 +2,7 @@
 /**
  * The main template file.
  *
- * @package neira-lite
+ * @package twilight_city
  */
 
 get_header();
