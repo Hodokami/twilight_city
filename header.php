@@ -6,7 +6,7 @@
  *
  * @package WordPress
  * @subpackage twilight_city
- * @since Twilight City 0.1
+ * @since Twilight City 0.1.2
  */
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
