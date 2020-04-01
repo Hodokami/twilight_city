@@ -152,7 +152,7 @@ add_action( 'widgets_init', 'neira_lite_widgets_init' );
 /**
  * Assign the Neira lite version to a variable.
  */
-$theme = wp_get_theme( 'neira-lite' );
+$theme = wp_get_theme( 'twilight_city' );
 $neira_lite_version = $theme['Version'];
 
 /* Calling in the admin area for the Welcome Page */
