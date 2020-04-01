@@ -1,12 +1,12 @@
 -------------------------------------------------------
-* Neira lite WordPress Theme
+* Twilight City WordPress Theme
 -------------------------------------------------------
-Contributors: VolThemes
+Contributors: Hodokami
 Requires at least: WordPress 4.4
 Tested up to: 5.2.1
 Requires PHP: 5.4
-Version: 1.8.3
-Stable tag: 1.8.3
+Version: 0.1
+Stable tag: 0.1
 
 -------------------------------------------------------
 * Description
