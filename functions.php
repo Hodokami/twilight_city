@@ -168,3 +168,17 @@ function neira_lite_require_file( $path ) {
 
 // Require core files
 neira_lite_require_file( get_template_directory() . '/core/init.php' );
+
+// plugin-update-checker
+require 'plugin-update-checker/plugin-update-checker.php';
+$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
+	'https://github.com/Hodokami/twilight_city/',
+	__FILE__,
+	'twilight_city'
+);
+
+//Optional: If you're using a private repository, specify the access token like this:
+// $myUpdateChecker->setAuthentication('your-token-here');
+
+//Optional: Set the branch that contains the stable release.
+// $myUpdateChecker->setBranch('stable-branch-name');
