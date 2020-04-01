@@ -58,9 +58,8 @@ License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Third-party resources:
-	1. Font Awesome 4.6.3 by @davegandy - http://fontawesome.io - @fontawesome
-	License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
-
+	1. Font Awesome 4.6.3 by @davegandy - http://fontawesome.io - @fontawesome License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+	
 	2. Google Fonts
 	BenchNine - https://fonts.google.com/specimen/BenchNine
 	Licensed under Apache License 2.0 (https://www.google.com/fonts/)
@@ -74,10 +73,11 @@ Third-party resources:
 	5. Bootstrap v4.3.1 (http://getbootstrap.com) - Copyright 2011-2019 The Bootstrap Authors - Copyright 2011-2019 Twitter, Inc.
 	Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
 	
-	6. FitVids 1.1 -  Copyright 2013, Chris Coyier - http://css-tricks.com + Dave Rupert - http://daverupert.com
+	6. FitVids 1.1 - Copyright 2013, Chris Coyier - http://css-tricks.com + Dave Rupert - http://daverupert.com
 	Released under the WTFPL license - http://sam.zoy.org/wtfpl/
 
-  7. 
+	7. Plugin Update Checker - Copyright (c) 2017 Jānis Elsts - https://github.com/YahnisElsts/plugin-update-checker
+	Licensed under MIT (https://github.com/YahnisElsts/plugin-update-checker/blob/master/license.txt)
 	
 Resources packed within the theme:
 * Other custom js files are our own creation and is licensed under the same license as this theme. 
