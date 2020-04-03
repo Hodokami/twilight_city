@@ -152,7 +152,7 @@ function neira_lite_footer() {
 
    $default_footer_value = 
    /* translators: 1: year, 2: sitename */
-   sprintf( __( 'Copyright &copy; 2012 - %1$s %2$s.', 'neira-lite' ), date_i18n( 'Y' ), $site_link ).'<br>'.sprintf( __( 'Theme: %1$s by %2$s.', 'neira-lite' ), 'Neira Lite', $tg_link ).' '.sprintf( __( 'Powered by %s.', 'neira-lite' ), $wp_link );
+   sprintf( __( 'Copyright &copy; 2012 - %1$s %2$s.', 'neira-lite' ), date_i18n( 'Y' ), $site_link ).' '.sprintf( __( 'Powered by %s.', 'neira-lite' ), $wp_link );
 
    $neira_lite_footer = '<div class="copyright">'.$default_footer_value.'</div>';
 	echo wp_kses_post($neira_lite_footer);
