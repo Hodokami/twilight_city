@@ -163,7 +163,7 @@ class neira_lite_about_widget extends WP_Widget {
 		$instance['imagealt'] = wp_strip_all_tags ( $new_instance['imagealt'] );
 		$instance['imagewidth'] = wp_strip_all_tags ( $new_instance['imagewidth'] );
 		$instance['imageheight'] = wp_strip_all_tags ( $new_instance['imageheight'] );
-		$instance['aboutdescription'] = wp_strip_all_tags ( $new_instance['aboutdescription'] );
+		$instance['aboutdescription'] = $new_instance['aboutdescription'];
 		$instance['feed'] = wp_strip_all_tags ( $new_instance['feed'] );
 		$instance['facebook'] = esc_url_raw ( $new_instance['facebook'] );
 		$instance['twitter'] = esc_url_raw ( $new_instance['twitter'] );
