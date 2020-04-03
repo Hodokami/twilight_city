@@ -93,39 +93,39 @@ function neira_lite_load_scripts() {
 }
 
 // Load Google fonts
-function neira_lite_google_fonts_url() {
-    $fonts_url = '';
-    $Montserrat = _x( 'on', 'Montserrat font: on or off', 'neira-lite' );
-    $Dancing = _x( 'on', 'BenchNine font: on or off', 'neira-lite' );    
+// function neira_lite_google_fonts_url() {
+//     $fonts_url = '';
+//     $Montserrat = _x( 'on', 'Montserrat font: on or off', 'neira-lite' );
+//     $Dancing = _x( 'on', 'BenchNine font: on or off', 'neira-lite' );    
 
-    if ( 'off' !== $Dancing || 'off' !== $Montserrat )
-    {
-        $font_families = array();
+//     if ( 'off' !== $Dancing || 'off' !== $Montserrat )
+//     {
+//         $font_families = array();
 
-        if ('off' !== $Dancing) {
-            $font_families[] = 'BenchNine:300,400,700';
-        }
+//         if ('off' !== $Dancing) {
+//             $font_families[] = 'BenchNine:300,400,700';
+//         }
         
-        if ('off' !== $Montserrat) {
-            $font_families[] = 'Montserrat:400,700';
-        }
+//         if ('off' !== $Montserrat) {
+//             $font_families[] = 'Montserrat:400,700';
+//         }
 
-        $query_args = array(
-            'family' => urlencode(implode('|', $font_families )),
-            'subset' => urlencode('latin,latin-ext')
-        );
+//         $query_args = array(
+//             'family' => urlencode(implode('|', $font_families )),
+//             'subset' => urlencode('latin,latin-ext')
+//         );
 
-        $fonts_url = add_query_arg($query_args, '//fonts.googleapis.com/css' );
-    }
+//         $fonts_url = add_query_arg($query_args, '//fonts.googleapis.com/css' );
+//     }
 
-    return esc_url_raw($fonts_url);
-}
+//     return esc_url_raw($fonts_url);
+// }
 
 // Google fonts
-function neira_lite_enqueue_googlefonts() {
-    wp_enqueue_style( 'neira-lite-googlefonts', neira_lite_google_fonts_url(), array(), null );
-}
-add_action('wp_enqueue_scripts', 'neira_lite_enqueue_googlefonts');
+// function neira_lite_enqueue_googlefonts() {
+//     wp_enqueue_style( 'neira-lite-googlefonts', neira_lite_google_fonts_url(), array(), null );
+// }
+// add_action('wp_enqueue_scripts', 'neira_lite_enqueue_googlefonts');
 
 /* Add Admin stylesheet to the admin page */
 function neira_lite_selectively_enqueue_admin_script( $hook ) {
