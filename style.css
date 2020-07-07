@@ -28,6 +28,9 @@ body {
     font-size: 14px;
     line-height: 25px;
 }
+strong {
+	font-weight:700;
+}
 h1, h2, h3, h4, h5, h6 {
     font-family: ryo-gothip-plusn , sans-serif;
     font-weight: 300;
