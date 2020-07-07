@@ -118,3 +118,16 @@ https://pxhere.com/en/photo/20181
 ------------------------
 * Update Translation
 * Change Copyright
+* Add strong to CSS
+
+= v0.1.4 - July 8, 2020 =
+------------------------
+* Fix About Widget
+
+= v0.1.5 - July 8, 2020 =
+------------------------
+* Refix About Widget
+
+= v0.1.6 - July 8, 2020 =
+------------------------
+* Add line-height for [p] attribute in CSS

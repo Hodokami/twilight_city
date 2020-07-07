@@ -26,7 +26,7 @@ body {
     font-family: ryo-gothip-plusn , sans-serif;
     font-weight: 300;
     font-size: 14px;
-    line-height: 25px;
+    line-height: 180%;
 }
 strong {
 	font-weight:700;
@@ -47,6 +47,7 @@ h5 {font-size: 18px;}
 h6 {font-size: 16px;}
 p {
     margin: 0 0 20px 0;
+    line-height: 160%;
 }
 img {
     display: inline-block;
