@@ -108,7 +108,7 @@ class neira_lite_about_widget extends WP_Widget {
 
 		<p>
 			<label for="<?php echo esc_attr($this->get_field_id( 'aboutdescription' )); ?>"><?php esc_html_e('About Description:','neira-lite'); ?></label>
-			<textarea class="widefat" id="<?php echo esc_attr($this->get_field_id( 'aboutdescription' )); ?>" name="<?php echo $this->get_field_name( 'aboutdescription' ); ?>" rows="12" cols="20"><?php echo esc_attr($instance['aboutdescription']); ?></textarea>
+			<textarea class="widefat" id="<?php echo esc_attr($this->get_field_id( 'aboutdescription' )); ?>" name="<?php echo $this->get_field_name( 'aboutdescription' ); ?>" rows="12" cols="20"><?php echo $instance['aboutdescription']; ?></textarea>
 		</p>
 
 		<p>
