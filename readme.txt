@@ -5,8 +5,8 @@ Contributors: Hodokami
 Requires at least: WordPress 4.4
 Tested up to: 5.2.1
 Requires PHP: 5.4
-Version: 0.1.3
-Stable tag: 0.1.3
+Version: 0.1.7
+Stable tag: 0.1.7
 
 -------------------------------------------------------
 * Description
@@ -131,3 +131,7 @@ https://pxhere.com/en/photo/20181
 = v0.1.6 - July 8, 2020 =
 ------------------------
 * Add line-height for [p] attribute in CSS
+
+= v0.1.7 - July 8, 2020 =
+------------------------
+* Fix theme updator error
