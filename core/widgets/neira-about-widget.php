@@ -38,7 +38,7 @@ class neira_lite_about_widget extends WP_Widget {
 				</div>
 				
 				<div class="about-description">
-					<p><?php echo esc_attr($aboutdescription); ?></p>
+					<p><?php echo $aboutdescription; ?></p>
 					
 					<p class="about-social">
 						<?php if($feed != '') echo '<a href="' . esc_url($feed) . '" title="' . esc_attr( 'Feed', 'neira-lite' ) . '" class="fa fa-feed" target="_blank"></a>'; ?>
