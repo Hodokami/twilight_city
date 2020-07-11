@@ -4,7 +4,7 @@
 	Theme Name: Twilight City
 	Theme URL: https://github.com/Hodokami/twilight_city
 	Description: Neira Lite is a clean and minimalist theme that allows your reader to focus on your content. It features modern, easy-to-read typography and minimalistic design. Built with Bootstrap framework which is perfect look on any device. Neira Lite offers additional two custom widget i.e. About and Latest Posts and including changing the color scheme. The theme options are powered by Customizer. You can check out the demo at https://volthemes.com/demo/?theme=neira-lite
-	Version: 0.1.8
+	Version: 0.1.9
 
 	Author: Hodokami
 	Author URI: https://tellaresdo.com/
@@ -45,10 +45,23 @@ h3 {font-size: 22px;}
 h4 {font-size: 20px;}
 h5 {font-size: 18px;}
 h6 {font-size: 16px;}
+
+div.entry-summary h1, div.entry-summary h2, div.entry-summary h3, div.entry-summary h4, div.entry-summary h5, div.entry-summary h6 {
+	padding: 0.5em;
+	border-style: solid;
+}
+div.entry-summary h1, div.entry-summary h2, div.entry-summary h3 {
+	border-width: 0 0 1px 8px;
+}
+div.entry-summary h4, div.entry-summary h5, div.entry-summary h6 {
+	border-width: 0 0 1px 0;
+}
+div.entry-summary h3.sd-title {border-style: none;}
+
 p {
 	margin:10px;
-	text-indent:1em;
-	line-height: 160%;
+	text-indent:0.6em;
+	line-height: 180%;
 }
 img {
 	display: inline-block;

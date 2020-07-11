@@ -5,8 +5,8 @@ Contributors: Hodokami
 Requires at least: WordPress 4.4
 Tested up to: 5.2.1
 Requires PHP: 5.4
-Version: 0.1.8
-Stable tag: 0.1.8
+Version: 0.1.9
+Stable tag: 0.1.9
 
 -------------------------------------------------------
 * Description
@@ -139,3 +139,7 @@ https://pxhere.com/en/photo/20181
 = v0.1.8 - July 11, 2020 =
 ------------------------
 * Fix style.css
+
+= v0.1.9 - July 12, 2020 =
+------------------------
+* Refix style.css
