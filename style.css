@@ -4,7 +4,7 @@
 	Theme Name: Twilight City
 	Theme URL: https://github.com/Hodokami/twilight_city
 	Description: Neira Lite is a clean and minimalist theme that allows your reader to focus on your content. It features modern, easy-to-read typography and minimalistic design. Built with Bootstrap framework which is perfect look on any device. Neira Lite offers additional two custom widget i.e. About and Latest Posts and including changing the color scheme. The theme options are powered by Customizer. You can check out the demo at https://volthemes.com/demo/?theme=neira-lite
-	Version: 0.1.10
+	Version: 0.1.11
 
 	Author: Hodokami
 	Author URI: https://tellaresdo.com/
@@ -106,7 +106,7 @@ textarea {
 	max-width: 100%;
 }
 .searchform input {
-	border: 1px solid #ddd;
+	border: 1px solid #4578d6;
 	line-height: 35px;
 	padding: 0 5px;
 	width: 100%;
@@ -172,11 +172,11 @@ a img.aligncenter {
 	width: auto;
 }
 .wp-caption p.wp-caption-text {
-	font-size: inherit;
+	font-size: 12px;
 	font-style: italic;
 	color: inherit;
-	line-height: 17px;
-	margin: 8px 0 0;
+	line-height: 110%;
+	margin: 6px 0 0;
 }
 table,
 th,
@@ -230,7 +230,7 @@ table tfoot + tbody tr:first-child td {
 	border-top-width: 0;
 }
 blockquote, #content article.format-quote .entry-summary {
-	background: #eee;
+	background: #D2E8FF;
 	color: #383838;
 	font-family: ryo-text-plusn ,serif;
 	font-weight: 300;
@@ -250,8 +250,8 @@ blockquote:before, .format-quote .entry-summary::before {
 	top: -10px;
 }
 blockquote cite {
-	color: #999999;
-	font-size: 14px;
+	color: #97B1D5;
+	font-size: 12px;
 	display: block;
 	margin-top: 5px;
 }
@@ -401,9 +401,9 @@ textarea:focus {
 	color: #777;
 }
 .topbar .social a {
-	color: #ccc;
-	font-size: 14px;
-	line-height: 50px;
+	color: #97B1D5;
+	font-size: 16px;
+	line-height: 38px;
 	margin: 0 0 0 10px;
 }
 .topbar .social a:hover, .toggle-search:hover {
@@ -419,14 +419,14 @@ textarea:focus {
 	content: "";
 	display: inline-block;
 	vertical-align: middle;
-	height: 14px;
+	height: 16px;
 	border-left: 1px solid rgba(107, 100, 100, 0.54);
-	margin: 0 20px;
+	margin: 0 16px;
 }
 .toggle-search {
-	color: #ccc;
+	color: #97B1D5;
 	cursor: pointer;
-	line-height: 50px;
+	line-height: 38px;
 	padding-left: 5px;
 }
 .toggle-search .fa.fa-times {
@@ -555,7 +555,7 @@ header.site-header {
 #nav-wrapper {
 	background: #333;
 	display: grid;
-	height: 50px;
+	height: 38px;
 	position: relative;
 }
 .vtmenu {
@@ -576,7 +576,7 @@ header.site-header {
 	font-size: 16px;
 	font-weight: 300;
 	letter-spacing: 2px;
-	line-height: 50px;
+	line-height: 38px;
 	padding: 0;
 	text-transform: uppercase;
 }
@@ -598,7 +598,7 @@ header.site-header {
 	text-align: left;
 	top: 100%;
 	opacity: 0;
-	transform: translateY(50px);
+	transform: translateY(38px);
 	transition: all 0.3s ease 0s;
 	visibility: hidden;
 }
@@ -618,8 +618,8 @@ header.site-header {
 	border-right: 1px solid #eee;
 	color: #ccc;
 	display: block;
-	font-size: 13px;
-	line-height: 40px;
+	font-size: 14px;
+	line-height: 38px;
 	padding: 0 15px;
 	transition: none 0s ease 0s;
 	width: 100%;
@@ -839,21 +839,21 @@ header.site-header {
 }
 .post-meta {
 	font-size: 10px;
-	color: #939393;
+	color: #97B1D5;
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	line-height: 1;
 }
 .post-meta a:hover {
-	color: #555;
+	color: #1ca1c9;
 }
 .author-link img {
 	border-radius: 50%;
 	margin-right: 5px;
 }
 .separator {
-	color: #e1e1e1;
+	color: #97B1D5;
 	padding: 0 2px;
 }
 .post-meta a {
@@ -1039,7 +1039,7 @@ header.site-header {
 	position: relative;
 }
 .widget-title::after {
-	background: #ddd;
+	background: #4578D6;
 	content: "";
 	height: 1px;
 	margin-left: 15px;
@@ -1086,16 +1086,17 @@ header.site-header {
 }
 .about-social a, .widget-social a {
 	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-	border: 1px solid #ddd;
-	border-radius: 30px;
-	color: #aaa;
+	border: 1px solid #2127BD;
+	border-radius: 36px;
+	color: #2127BD;
 	display: inline-block;
-	font-size: 13px;
-	height: 30px;
-	line-height: 30px;
+	font-size: 22px;
+	height: 36px;
+	line-height: 36px;
 	margin: 0 5px 10px 0;
 	text-align: center;
-	width: 30px;
+	width: 36px;
+	padding: 0 12px 0 0;
 }
 .about-social a:hover {
 	border-color: transparent;

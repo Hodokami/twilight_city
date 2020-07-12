@@ -5,8 +5,8 @@ Contributors: Hodokami
 Requires at least: WordPress 4.4
 Tested up to: 5.2.1
 Requires PHP: 5.4
-Version: 0.1.9
-Stable tag: 0.1.9
+Version: 0.1.11
+Stable tag: 0.1.11
 
 -------------------------------------------------------
 * Description
@@ -144,6 +144,10 @@ https://pxhere.com/en/photo/20181
 ------------------------
 * Refix style.css
 
-= v0.1.9 - July 12, 2020 =
+= v0.1.10 - July 12, 2020 =
 ------------------------
 * Improved Theme Customiser
+
+= v0.1.11 - July 12, 2020 =
+------------------------
+* Change color scheme
