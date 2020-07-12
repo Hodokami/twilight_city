@@ -143,3 +143,7 @@ https://pxhere.com/en/photo/20181
 = v0.1.9 - July 12, 2020 =
 ------------------------
 * Refix style.css
+
+= v0.1.9 - July 12, 2020 =
+------------------------
+* Improved Theme Customiser

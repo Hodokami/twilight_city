@@ -5,36 +5,35 @@ function neira_lite_customizer_css() {
 
 	// Color Scheme
 	$color_scheme = esc_html(get_theme_mod('neira_lite_color_scheme'));
+	$url_color = esc_html(get_theme_mod('twilght_city_link_color'));
 	$nav_bg_color = esc_html(get_theme_mod('neira_lite_nav_bg_color')); //Nav Background Color
 	$menu_link_color = esc_html(get_theme_mod('neira_lite_nav_link_color')); //Menu Link Color
 	$menu_link_hover_color = esc_html(get_theme_mod('neira_lite_nav_link_hover_color')); // Menu Nav Color
 	
 ?>
-    <style type="text/css">
-        <?php if ( get_theme_mod('neira_lite_color_scheme') ) : ?>
-            a, a:hover, a:focus,
+	<style type="text/css">
+		<?php if ( get_theme_mod('neira_lite_color_scheme') ) : ?>
+			a:hover, a:focus,
 			.topbar-menu li a:hover,
-            .neira-thumbnail .neira-categories:hover,
-            .post .entry-meta .socials li a:hover,
-            .post .link-more:hover,
+			.neira-thumbnail .neira-categories:hover,
+			.post .entry-meta .socials li a:hover,
+			.post .link-more:hover,
 			.entry-footer .entry-comments a:hover,
 			#content article .link-more:hover,
 			.entry-related h3 span,
 			.entry-related .hentry .entry-title a:hover,
-            .widget a:hover, .latest-post .post-item-text h4 a:hover,
+			.widget a:hover, .latest-post .post-item-text h4 a:hover,
 			.widget_categories ul li a:hover,
 			button:hover, input[type="button"]:hover,
 			input[type="reset"]:hover,
-			input[type="submit"]:hover,
-			.site-footer .copyright a {
+			input[type="submit"]:hover {
 				color: <?php echo esc_attr($color_scheme); ?>;
-            }
-            .single-post-footer .social-share a:hover,
+			}
+			.single-post-footer .social-share a:hover,
 			.about-social a:hover {
 				background-color: <?php echo esc_attr($color_scheme); ?>;
 				color: #fff !important;
-            }
-			.neira-thumbnail .neira-categories a,
+			}
 			.vt-post-tags a:hover,
 			.tagcloud a:hover,
 			.pagination .nav-links span,
@@ -47,7 +46,17 @@ function neira_lite_customizer_css() {
 			blockquote, #content article.format-quote .entry-summary {
 				border-color: <?php echo esc_attr($color_scheme); ?>;
 			}
-        <?php endif; ?>
+		<?php endif; ?>
+
+		<?php if ( get_theme_mod('twilght_city_link_color') ) : ?>
+			a,
+			.site-footer .copyright a {
+				color: <?php echo esc_attr($url_color); ?>;
+			}
+			.neira-thumbnail .neira-categories a {
+				background:  <?php echo esc_attr($url_color); ?>;
+			}
+		<?php endif; ?>
 
 		<?php if ( get_theme_mod('neira_lite_nav_bg_color') ) : ?>
 			#nav-wrapper, #nav-wrapper .dropdown-menu { 
@@ -86,7 +95,7 @@ function neira_lite_customizer_css() {
 			}
 		<?php endif; ?>
 	
-    </style>
+	</style>
 	
-    <?php
+	<?php
 }
